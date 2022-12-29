@@ -9,6 +9,6 @@ Sasakulab Home Page v2.0
 
 ## Theme
 
-[jamigibbs / phantom](https://github.com/jamigibbs/phantom)
+[LeNPaul / Millennial](https://github.com/LeNPaul/Millennial)
 
 - MIT License
