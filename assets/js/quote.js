@@ -1,7 +1,7 @@
 let quotes = [
     {
         "text": "右コーナーで 差をつけろ",
-        "artist": "KusaReMKN",
+        "artist": "西月拓",
         "title": "化南郡立化学物質不使用小学校"
     }, 
     {
