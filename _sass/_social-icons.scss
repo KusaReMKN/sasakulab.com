@@ -63,3 +63,18 @@
   padding: 5px;
   @include social-media-icon($rss-color, $icon-transition-time);
 }
+
+.fa-repeat {
+  padding: 5px;
+  @include social-media-icon($rss-color, $icon-transition-time);
+}
+
+.fa-info {
+  padding: 5px;
+  @include social-media-icon($rss-color, $icon-transition-time);
+}
+
+.fa-search {
+  padding: 5px;
+  @include social-media-icon($rss-color, $icon-transition-time);
+}

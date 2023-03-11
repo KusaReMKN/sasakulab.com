@@ -54,3 +54,14 @@
 .pagination-active:hover {
   background-color: #e0e0e0;
 }
+
+.quote span:nth-child(2) {
+	display: none;
+}
+
+.quote:hover span:nth-child(1) {
+	display: none;
+}
+.quote:hover span:nth-child(2) {
+	display: block;
+}

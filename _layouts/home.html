@@ -13,6 +13,25 @@ title: Home
   {% endfor %}
 </div>
 
+<!-- Lyrics -->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<blockquote style="text-align: center; margin: 25px;" class="quote" style="white-space: nowrap;">
+  <p>
+    <span id="text"></span>
+    <span id="artist_title"></span>
+  </p>
+  <button style="border: none; background: transparent;" onclick="quote()">
+    <i class="fa fa-repeat" aria-hidden="true"></i>
+  </button>
+  <button style="border: none; background: transparent;">
+    <a href="" id="search" style="text-decoration: none;">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </a>
+  </button>
+</blockquote>
+<script src="/assets/js/quote.js"></script>
+
 <!-- Posts -->
 
 {% for post in paginator.posts %}
