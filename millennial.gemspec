@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "millennial"
-  spec.version       = "3.3.22"
+  spec.version       = "3.0.0"
   spec.authors       = ["Paul Le"]
   spec.email         = ["hello@paulle.ca"]
 
@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
-  spec.add_runtime_dependency "jekyll-sass-converter", "~> 3.0"
+  spec.add_runtime_dependency "jekyll-sass-converter", "~> 2.2.0"
 
 end
