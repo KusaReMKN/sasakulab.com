@@ -82,10 +82,10 @@ quote()
 
 document.getElementById('text').addEventListener('mouseover', function() {
     document.getElementById('text').style.display = "none";
-    document.getElementById('artist_title').style.display = "block"
+    document.getElementById('artist_title').style.display = "inline-block"
 })
 
 document.getElementById('artist_title').addEventListener('mouseout', function() {
-    document.getElementById('text').style.display = "block";
+    document.getElementById('text').style.display = "inline-block";
     document.getElementById('artist_title').style.display = "none"
 })
